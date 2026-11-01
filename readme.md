@@ -425,8 +425,3 @@ Push to GitHub, then go to **Settings → Pages → Deploy from branch → `main
 
 ---
 
-<div align="center">
-
-*© 2026 The Urban Table. Good food, great company, unforgettable moments.* 🍷
-
-</div>
