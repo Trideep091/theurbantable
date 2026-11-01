@@ -821,6 +821,89 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 12px;
 }
 
+/* Tablet */
+@media(max-width: 1247px) {
+    .navbar h2{
+        font-size: 40px;
+    }
+    .about-img{
+
+    margin-top: 80px;
+}
+.food-gallery {
+        padding: 35px 3%;
+    }
+
+    .images {
+        columns: 2;
+        column-gap: 20px;
+    }
+
+    .img {
+        margin-bottom: 20px;
+    }
+    .meet-chef {
+        width: 94%;
+    }
+
+    .chef {
+        gap: 30px;
+        padding: 22px;
+        margin-bottom: 45px;
+    }
+
+    .chef-image {
+        flex: 0 0 40%;
+        height: 300px;
+    }
+
+    .chef-desc h3 {
+        font-size: 40px;
+    }
+
+    .chef-desc p {
+        font-size: 15px;
+    }
+
+    .chef-quote {
+        font-size: 26px;
+    }
+    .customer-reviews {
+        width: 94%;
+    }
+
+    .review-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .review-card {
+        padding: 28px 22px;
+    }
+        .booking-banner {
+        min-height: 420px;
+        background-position: center;
+    }
+
+    .booking-content h2 {
+        font-size: 70px;
+    }
+    .main-footer {
+        padding: 50px 5% 20px;
+    }
+
+    .footer-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+    }
+
+    .footer-newsletter {
+        align-items: flex-start;
+    }
+
+}
+
+
 /* Mobile */
 @media (max-width: 600px) {
     .navbar{
@@ -843,31 +926,110 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     .hero_sec{
         margin: -25px;
     }
+    .hero_sec h1{
+        font-size: 40px;
+    }
     .hero-button button{
         display: block;
         margin: 5px;
+    }
+    .hero-button{
+        flex-direction: column;
     }
     header{
         height: 100%;
     }
     /* about section starts here */
-    .about-sec{
-        flex-direction: column;
-    }
-    .about-sec img{
-        width: 550px;
-    }
-    .about-img-back{
-        top: 10px;
-        left: 20px;
-        width: 545px;
-    }
-    .about-para{
-        margin-top: -30px;
-    }
-    .about-head h2{
-        padding: 80px 0px 0px 0px;    
-    }
+/* ABOUT SECTION - MOBILE */
+
+.about-us {
+    width: 92%;
+    margin: 20px auto;
+}
+
+.about-head {
+    margin-bottom: 25px;
+}
+
+.about-head h2 {
+    padding: 20px 0 0;
+    margin: 20px 0;
+}
+
+.about-sec {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 25px;
+}
+
+/* IMAGE CONTAINER */
+
+.about-img {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    flex: none;
+    aspect-ratio: 3 / 2;
+    height: auto;
+    margin: 20px 0 10px;
+}
+
+/* BACKGROUND BOX */
+
+.about-img-back {
+    position: absolute;
+    width: 88%;
+    height: 100%;
+    top: -10px;
+    right: -8px;
+    left: auto;
+}
+
+/* MAIN IMAGE */
+
+.about-img img {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    margin: 0;
+    display: block;
+    object-fit: cover;
+}
+
+/* ABOUT DESCRIPTION */
+
+.about-para {
+    width: 100%;
+    margin: 0;
+}
+
+.about-para .para-about {
+    width: 100%;
+    padding: 12px 0;
+    font-size: 1.1rem;
+    line-height: 1.7;
+    text-align: left;
+}
+
+/* ICONS */
+
+.icon-cont {
+    padding: 8px 0;
+    align-items: center;
+}
+
+.icon-cont i {
+    font-size: 1.5rem;
+}
+
+.icon-cont p {
+    margin: 8px 0 0 12px;
+}
     /* starting of hot selling items */
     .spcl-food-cards{
         flex-direction: column;
@@ -1064,84 +1226,3 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
 
-/* Tablet */
-@media(max-width: 1247px) {
-    .navbar h2{
-        font-size: 40px;
-    }
-    .about-img{
-
-    margin-top: 80px;
-}
-.food-gallery {
-        padding: 35px 3%;
-    }
-
-    .images {
-        columns: 2;
-        column-gap: 20px;
-    }
-
-    .img {
-        margin-bottom: 20px;
-    }
-    .meet-chef {
-        width: 94%;
-    }
-
-    .chef {
-        gap: 30px;
-        padding: 22px;
-        margin-bottom: 45px;
-    }
-
-    .chef-image {
-        flex: 0 0 40%;
-        height: 300px;
-    }
-
-    .chef-desc h3 {
-        font-size: 40px;
-    }
-
-    .chef-desc p {
-        font-size: 15px;
-    }
-
-    .chef-quote {
-        font-size: 26px;
-    }
-    .customer-reviews {
-        width: 94%;
-    }
-
-    .review-container {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 20px;
-    }
-
-    .review-card {
-        padding: 28px 22px;
-    }
-        .booking-banner {
-        min-height: 420px;
-        background-position: center;
-    }
-
-    .booking-content h2 {
-        font-size: 70px;
-    }
-    .main-footer {
-        padding: 50px 5% 20px;
-    }
-
-    .footer-container {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 40px;
-    }
-
-    .footer-newsletter {
-        align-items: flex-start;
-    }
-
-}
