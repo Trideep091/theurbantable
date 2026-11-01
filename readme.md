@@ -80,34 +80,7 @@ The visual identity is built around a **dark espresso-brown background** with **
 | ⭐ `fa-solid fa-star` | 4.8 Rating |
 | 👥 `fa-solid fa-people-line` | 10k+ Guests |
 
-#### Hot Selling Items
 
-1. **Chocolate Rashamalai**
-2. **Alfredo Pasta**
-3. **Chicken Butter Masala**
-
-#### Meet Our Chefs
-
-| Role | Name | Quote |
-|---|---|---|
-| **Head Chef** | Chef Rohan Malhotra | *"Great food isn't just cooked; it's crafted with passion, patience, and a little magic."* |
-| **Sous Chef** | Chef Daniel Cooper | *"Every little detail matters when perfection is served on a plate."* |
-
-#### Guest Reviews
-
-| Guest | Title | Rating |
-|---|---|---|
-| Arjun Mehta | Food Enthusiast | ★★★★★ |
-| Sarah Williams | Regular Guest (*featured card*) | ★★★★ |
-| Rahul Kapoor | Happy Customer | ★★★★ |
-
-#### Opening Hours
-
-| Day | Hours |
-|---|---|
-| Monday – Friday | 11 AM – 10 PM |
-| Saturday | 11 AM – 11 PM |
-| Sunday | 12 PM – 10 PM |
 
 ### 📅 `reservation.html`
 
