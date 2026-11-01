@@ -1,0 +1,1146 @@
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    background: linear-gradient(to right, #5C3A21, #1C100B);
+    margin: 0;
+    scroll-behavior: smooth;
+    padding: 0;
+    overflow-x: hidden;
+}
+.navbar{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+header{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(images/restaurant\ ambience.png); 
+    height: 100vh;
+    max-width: 100%; 
+    background-size: cover;
+    background-position: center;
+}
+.navbar h2{
+    font-size: 50px;
+    color: goldenrod;
+    max-width: 100%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+.navbar .nav-logo img{
+    height: 150px;
+    width: 150px;
+}
+.navbar .nav-links a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin: 0px 8px;
+}
+.urban{
+        font-family: 'Ballet', cursive;
+        margin: 4px;
+
+}
+.navbar button{
+    margin-left: 60px;
+    padding: 10px;
+    border-radius: 40px;
+    background-color: orange;
+    color: white;
+    border: 3px solid orange;
+}
+.nav-links{
+    padding-right: 20px;
+}
+.nav-links a{
+    padding: 8px 20px;
+}
+.nav-links a:hover{
+    background-color: #5A4A35;
+    border-radius: 40px;
+    transition: 0.3s;
+}
+.navbar button:hover{
+    border: 3px solid orange;
+    background-color: #161310;
+    cursor: pointer;
+    color: orange;
+    transition: 0.5s;
+}
+
+
+.hero_sec{
+    
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    color: goldenrod;
+    justify-content: center;
+}
+.hero_sec h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+
+}
+.hero_sec p{
+    font-size: 30px;
+    text-decoration: italic;
+}
+
+ .hero-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.hero-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    padding: 0 25px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+    width: 250px;
+    border: 4px solid orange;
+    border-radius: 50px;
+    font-size: 20px;
+    font-family: Georgia, serif;
+    white-space: nowrap;
+    transition: 0.3s ease;
+}
+
+.hero-btn:hover {
+    background-color: orange;
+    color: #30190f;
+}
+/* header section ends here */
+
+/* about section starts here */
+
+.about-sec{
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+
+}
+.about-us{
+        width: 90%;
+    margin: 20px auto;
+}
+.about-head{
+    margin-bottom: 50px;
+}
+.about-head h2{
+    margin: 40px 0px;
+    text-align: center;
+    font-family: 'Alex Brush', cursive;
+    font-size: 40px;
+    color: white;
+    color: #b68c50;
+
+}
+.about-img{
+    position: relative;
+    flex: 0 0 600px;
+    margin-top: 50px;
+}
+
+.about-img-back{
+    width: 600px;
+    height: 400px;
+    background-color: #634728;
+    position: absolute;
+    z-index: 1;
+    top: -10px;
+    right: -30px;
+}
+.about-img img{
+    width: 600px;
+    height: 400px;
+    margin-top: 30px;
+    position: absolute;
+    display: block;
+    z-index: 2;
+}
+.about-para {
+    flex: 1;
+    min-width: 0;
+    margin-left: 0;
+}
+.about-para h3{
+    text-align: center;
+    color: #D4AF6A;
+    font-size: 1.8rem;
+}
+.about-para hr{
+    width: 60%;
+    margin: 10px auto;
+}
+.about-para .para-about{
+    padding: 20px;
+    color: white;
+    text-align: justify;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 1.4rem;
+
+}
+.icon-cont{
+    display: flex;
+    padding: 10px 0px 10px 90px;
+}
+.icon-cont i{
+    color: gold;
+    font-size: 2rem;
+    padding: 10px;
+}
+.icon-cont p{
+margin: 20px 0px 0px 26px;
+color: white;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* about section ends here */
+
+/* special food section starts here */
+
+.chef-spcl h2{
+    color: #d9b36f;
+    font-family: 'Ballet', cursive;
+    font-size: 75px;
+    font-weight: 400;
+    text-align: center;
+    margin: 12px 0;
+}
+.chef-spcl p{
+    color: #e8d8c5;
+    font-family: 'Italianno', cursive;
+    font-size: 30px;
+    margin: 5px 0 30px 0px;
+    text-align: center;
+}
+.card img{
+    width: 100%;
+    object-fit: cover;
+    display: block;
+    height: 400px;
+}
+.card{
+    width: 350px;
+    height: 550px;
+    background-color: #2A2420;
+    scroll-snap-align: center;
+
+    transition: 0.4s ease;
+
+}
+.card p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 20px 10px;
+    text-align: center;
+    font-weight:800;
+    font-size: 25px;
+    color:rgb(247, 195, 6);
+
+}
+.card h4{
+    font-size: 1.5rem;
+    border: 3px solid brown;
+    border-radius: 40px;
+    text-align: center;
+    color: brown;
+}
+.card h4:hover{
+    background-color: brown;
+    color: white;
+    border-color: brown;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.food-card-desc{
+    padding: 8px;
+}
+.chef-spcl h2{
+    text-align: center;
+    font-size: 37px;
+}
+.spcl-food-cards{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    overflow: hidden;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.card:hover{
+    transform: translateY(-15px) rotateX(3deg) rotateY(-2deg);
+    box-shadow: 0 25px 45px rgba(0,0,0,0.35);
+}
+/* special food section ends here */
+
+/* gallery section starts here */
+.food-gallery {
+    width: 90%;
+    margin: 60px auto;
+    padding: 50px 3%;
+    box-sizing: border-box;
+}
+
+.images {
+    width: 100%;
+    columns: 3;
+    column-gap: 25px;
+}
+
+.img {
+    width: 100%;
+    margin-bottom: 25px;
+    display: inline-block;
+    break-inside: avoid;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.img img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    transition: transform 0.6s ease;
+}
+.img:hover img {
+    transform: scale(1.06);
+    cursor: pointer;
+}
+.food-gallery h2{
+        color: #d9b36f;
+    font-family: 'Alex Brush', cursive;
+    font-size: 45px;
+    font-weight: 400;
+    text-align: center;
+    margin: 12px 0;
+}
+.food-gallery hr{
+    width: 50%;
+    text-align: center;
+    background-color: #d9b36f;
+    border: none;
+    margin-top: -5px;
+    margin-bottom: 30px;
+    height: 4px;
+}
+/* gallery section ends here */
+
+
+/* meet our chef section starts here */
+
+.meet-chef {
+    width: 90%;
+    max-width: 1400px;
+    margin: 80px auto;
+}
+
+.chef-heading {
+    text-align: center;
+    margin-bottom: 65px;
+}
+
+.chef-heading span {
+    color: #d9b36f;
+    font-size: 13px;
+    letter-spacing: 5px;
+    font-family: Arial, sans-serif;
+}
+
+.chef-heading h2 {
+    font-family: 'Alex Brush', cursive;
+    font-size: 65px;
+    font-weight: 400;
+    color: #e2bd7c;
+    margin: 5px 0;
+}
+
+.chef-heading p {
+    color: #e8d5b7;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+.chef {
+    display: flex;
+    align-items: center;
+    gap: 65px;
+
+    margin-bottom: 85px;
+    padding: 30px;
+
+    background: rgba(255, 255, 255, 0.035);
+    border: 1px solid rgba(217, 179, 111, 0.2);
+
+    border-radius: 15px;
+
+    transition: all 0.4s ease;
+}
+
+.chef-reverse {
+    flex-direction: row-reverse;
+}
+
+.chef-image {
+    flex: 0 0 43%;
+    height: 350px;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.chef-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+    transition: transform 0.7s ease,
+                filter 0.7s ease;
+}
+
+.chef:hover .chef-image img {
+    transform: scale(1.08);
+    filter: brightness(1.1);
+}
+
+.chef-desc {
+    flex: 1;
+}
+
+.chef-role {
+    display: inline-block;
+
+    color: #d9b36f;
+    font-size: 12px;
+    letter-spacing: 4px;
+    font-weight: bold;
+
+    margin-bottom: 12px;
+}
+
+
+.chef-desc h3 {
+    color: #e5bd7b;
+    font-family: 'Alex Brush', cursive;
+    font-size: 48px;
+    font-weight: 400;
+
+    margin: 0 0 18px;
+}
+
+
+.chef-desc p {
+    color: #f2e6d6;
+    font-family: 'Trebuchet MS', sans-serif;
+
+    font-size: 17px;
+    line-height: 1.8;
+
+    margin-bottom: 25px;
+}
+.chef-quote {
+    color: #d9b36f;
+
+    font-family: 'Italianno', cursive;
+    font-size: 30px;
+
+    line-height: 1.3;
+    margin: 20px 0;
+}
+.chef-line {
+    width: 90px;
+    height: 2px;
+
+    background: #d9b36f;
+
+    margin-top: 25px;
+
+    transition: width 0.4s ease;
+}
+
+.chef:hover .chef-line {
+    width: 180px;
+}
+
+.chef:hover {
+    transform: translateY(-7px);
+
+    border-color: rgba(217, 179, 111, 0.65);
+
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+}
+/* meet our chef section ends here */
+
+/* customer review section starts here */
+
+.customer-reviews {
+    width: 90%;
+    margin: 100px auto;
+    padding: 60px 0;
+}
+
+
+
+
+.review-heading {
+    text-align: center;
+    margin-bottom: 65px;
+}
+
+.review-heading span {
+    color: #d9b36f;
+    font-size: 13px;
+    letter-spacing: 5px;
+    font-family: Arial, sans-serif;
+}
+
+.review-heading h2 {
+    font-family: 'Alex Brush', cursive;
+    font-size: 65px;
+    font-weight: 400;
+    color: #e5bd7b;
+    margin: 10px 0;
+}
+
+.review-heading p {
+    color: #e8d5b7;
+    font-size: 16px;
+}
+
+
+
+
+.review-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    align-items: stretch;
+}
+
+
+
+
+.review-card {
+    position: relative;
+    padding: 35px 28px;
+
+    background: rgba(255, 255, 255, 0.045);
+
+    border: 1px solid rgba(217, 179, 111, 0.3);
+    border-radius: 15px;
+
+    transition: all 0.4s ease;
+    overflow: hidden;
+}
+
+.review-card:hover {
+    transform: translateY(-12px);
+
+    border-color: #d9b36f;
+
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+}
+.quote-icon {
+    font-family: Georgia, serif;
+    font-size: 85px;
+    line-height: 0.8;
+    color: #d9b36f;
+    opacity: 0.8;
+}
+.stars {
+    color: #e7b84f;
+    font-size: 23px;
+    letter-spacing: 4px;
+    margin: 20px 0;
+}
+.review-text {
+    color: #f0e4d5;
+
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+
+    min-height: 145px;
+}
+.reviewer {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    margin-top: 30px;
+    padding-top: 20px;
+
+    border-top: 1px solid rgba(217, 179, 111, 0.25);
+}
+.review-avatar {
+    width: 48px;
+    height: 48px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background: #d9b36f;
+    color: #3b2418;
+
+    font-family: 'Alex Brush', cursive;
+    font-size: 30px;
+}
+
+.reviewer h3 {
+    color: #e5bd7b;
+    font-size: 17px;
+    margin: 0 0 5px;
+}
+
+.reviewer span {
+    color: #c8b5a1;
+    font-size: 13px;
+}
+/* customer review section ends here */
+
+/* banner image part */
+
+
+.booking-banner {
+    width: 100%;
+    min-height: 500px;
+
+    background-image:linear-gradient(rgba(25, 13, 7, 0.55),rgba(25, 13, 7, 0.65)),url("images/table.avif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px 20px;
+    box-sizing: border-box;
+}
+.booking-content {
+    max-width: 750px;
+    padding: 30px;
+}
+.booking-subtitle {
+    color: #e4c58e;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    letter-spacing: 5px;
+}
+.booking-content h2 {
+    color: #fff0d5;
+
+    font-family: 'Alex Brush', cursive;
+    font-size: 85px;
+    font-weight: 400;
+    margin: 15px 0;
+}
+.booking-content p {
+    color: #f5e8d8;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    line-height: 1.8;
+    margin-bottom: 35px;
+}
+.booking-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 15px 35px;
+    color: #3b2418;
+    background: #d9b36f;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid #d9b36f;
+    border-radius: 50px;
+    transition: all 0.4s ease;
+}
+
+
+
+
+.booking-btn:hover {
+    background: transparent;
+    color: #f3d49b;
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+.booking-btn span {
+    font-size: 22px;
+    transition: transform 0.3s ease;
+}
+.booking-btn:hover span {
+    transform: translateX(7px);
+}
+/* footer designing starts */
+.main-footer {
+    background: #1c100a;
+    color: #e9d8c0;
+    padding: 65px 7% 20px;
+    border-top: 2px solid #b68c50;
+}
+/* FOOTER CONTAINER */
+
+.footer-container {
+    display: grid;
+    grid-template-columns: 1.5fr 0.8fr 1.2fr 1.2fr;
+    gap: 45px;
+    max-width: 1450px;
+    margin: auto;
+}
+
+
+
+.footer-brand h2 {
+    font-family: 'Alex Brush', cursive;
+    color: #d9b36f;
+    font-size: 48px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.brand-tagline {
+    font-family: 'Italianno', cursive;
+    font-size: 27px;
+    color: #d9b36f;
+    margin: 0 0 15px;
+}
+
+.brand-description {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    line-height: 1.8;
+    color: #c7b6a3;
+}
+
+.main-footer h3 {
+    color: #d9b36f;
+    font-size: 18px;
+    margin-bottom: 25px;
+    font-family: Georgia, serif;
+}
+
+
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    margin-bottom: 15px;
+}
+
+.footer-links a {
+    color: #c7b6a3;
+    text-decoration: none;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #e5bd7b;
+    padding-left: 8px;
+}
+
+.footer-hours ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-hours li {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+
+    font-size: 13px;
+    color: #c7b6a3;
+
+    margin-bottom: 18px;
+}
+
+.hours-note {
+    font-family: 'Italianno', cursive;
+    color: #d9b36f;
+    font-size: 25px;
+}
+.footer-contact p {
+    color: #c7b6a3;
+    font-size: 14px;
+    line-height: 1.7;
+    margin-bottom: 17px;
+}
+
+.footer-reserve {
+    display: inline-block;
+    margin-top: 12px;
+
+    color: #d9b36f;
+    text-decoration: none;
+
+    border-bottom: 1px solid #d9b36f;
+    padding-bottom: 5px;
+
+    transition: 0.3s;
+}
+
+.footer-reserve:hover {
+    color: white;
+    letter-spacing: 1px;
+}
+
+.footer-bottom {
+    max-width: 1450px;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    color: #a99783;
+    font-size: 12px;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    .navbar{
+        flex-direction: column;
+        padding: 10px;
+        text-align: center;
+    }
+    .navbar h2{
+        font-size: 20px;
+    }
+    .nav-links a{
+        display: block;
+        text-align: center;
+        margin: 20px 0;
+    }
+    .navbar .nav-links button{
+        margin: 20px auto;
+    }
+
+    .hero_sec{
+        margin: -25px;
+    }
+    .hero-button button{
+        display: block;
+        margin: 5px;
+    }
+    header{
+        height: 100%;
+    }
+    /* about section starts here */
+    .about-sec{
+        flex-direction: column;
+    }
+    .about-sec img{
+        width: 550px;
+    }
+    .about-img-back{
+        top: 10px;
+        left: 20px;
+        width: 545px;
+    }
+    .about-para{
+        margin-top: -30px;
+    }
+    .about-head h2{
+        padding: 80px 0px 0px 0px;    
+    }
+    /* starting of hot selling items */
+    .spcl-food-cards{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .card{
+        margin-bottom: 30px;
+    }
+    /* ending of hot selling items */
+
+    .food-gallery {
+        padding: 20px 15px;
+    }
+
+    .images {
+        columns: 1;
+        column-gap: 0;
+    }
+
+    .img {
+        margin-bottom: 18px;
+        border-radius: 8px;
+    }
+
+    .img img {
+        width: 100%;
+        height: auto;
+    }
+    .meet-chef {
+        width: 92%;
+        margin: 50px auto;
+    }
+
+    .chef-heading {
+        margin-bottom: 35px;
+    }
+
+    .chef-heading h2 {
+        font-size: 48px;
+    }
+
+    .chef-heading span {
+        font-size: 10px;
+        letter-spacing: 3px;
+    }
+
+    .chef-heading p {
+        font-size: 14px;
+    }
+
+    .chef,
+    .chef-reverse {
+        flex-direction: column;
+        gap: 20px;
+
+        padding: 15px;
+        margin-bottom: 30px;
+    }
+
+    .chef-image {
+        width: 100%;
+        height: 250px;
+        flex: none;
+    }
+
+    .chef-desc {
+        width: 100%;
+    }
+
+    .chef-desc h3 {
+        font-size: 38px;
+    }
+
+    .chef-desc p {
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+    .chef-quote {
+        font-size: 25px;
+    }
+    .customer-reviews {
+        width: 92%;
+        margin: 50px auto;
+        padding: 30px 0;
+    }
+
+    .review-heading {
+        margin-bottom: 35px;
+    }
+
+    .review-heading h2 {
+        font-size: 48px;
+    }
+
+    .review-heading span {
+        font-size: 10px;
+        letter-spacing: 3px;
+    }
+
+    .review-heading p {
+        font-size: 13px;
+        line-height: 1.6;
+    }
+
+    .review-container {
+        grid-template-columns: 1fr;
+        gap: 22px;
+    }
+
+    .review-card {
+        padding: 25px;
+    }
+
+    .review-text {
+        font-size: 14px;
+        min-height: auto;
+    }
+
+    .review-bottom {
+        margin-top: 35px;
+    }
+        .booking-banner {
+        min-height: 400px;
+
+        background-attachment: scroll;
+        background-position: center;
+        padding: 35px 15px;
+    }
+
+    .booking-content {
+        padding: 15px;
+    }
+
+    .booking-subtitle {
+        font-size: 10px;
+        letter-spacing: 3px;
+    }
+
+    .booking-content h2 {
+        font-size: 55px;
+    }
+
+    .booking-content p {
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+    .booking-btn {
+        padding: 12px 25px;
+        font-size: 14px;
+    }
+    .main-footer {
+        padding: 40px 7% 20px;
+    }
+
+    .footer-container {
+        grid-template-columns: 1fr;
+        gap: 35px;
+    }
+
+    .footer-brand h2 {
+        font-size: 42px;
+    }
+
+    .footer-newsletter {
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 35px;
+    }
+
+    .newsletter-form {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .newsletter-form input {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .newsletter-form button {
+        width: 100%;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+        gap: 8px;
+    }
+
+
+
+}
+
+/* Tablet */
+@media(max-width: 1247px) {
+    .navbar h2{
+        font-size: 40px;
+    }
+    .about-img{
+
+    margin-top: 80px;
+}
+.food-gallery {
+        padding: 35px 3%;
+    }
+
+    .images {
+        columns: 2;
+        column-gap: 20px;
+    }
+
+    .img {
+        margin-bottom: 20px;
+    }
+    .meet-chef {
+        width: 94%;
+    }
+
+    .chef {
+        gap: 30px;
+        padding: 22px;
+        margin-bottom: 45px;
+    }
+
+    .chef-image {
+        flex: 0 0 40%;
+        height: 300px;
+    }
+
+    .chef-desc h3 {
+        font-size: 40px;
+    }
+
+    .chef-desc p {
+        font-size: 15px;
+    }
+
+    .chef-quote {
+        font-size: 26px;
+    }
+    .customer-reviews {
+        width: 94%;
+    }
+
+    .review-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .review-card {
+        padding: 28px 22px;
+    }
+        .booking-banner {
+        min-height: 420px;
+        background-position: center;
+    }
+
+    .booking-content h2 {
+        font-size: 70px;
+    }
+    .main-footer {
+        padding: 50px 5% 20px;
+    }
+
+    .footer-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+    }
+
+    .footer-newsletter {
+        align-items: flex-start;
+    }
+
+}

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a Table | The Urban Table</title>
+    <link rel="stylesheet" href="reservation_style.css">
+
+</head>
+<body>
+    <header class="navbar">
+        <a href="index.html" class="logo">
+            <img src="images/logo.png" alt="">
+        </a>
+        <a href="index.html" class="back-link">← Back to Home</a>
+    </header>
+
+    <main>
+        <section class="heading">
+            <p>A table is waiting for you</p>
+            <h1>Book Your Table</h1>
+            <div class="subtitle">Good food, great company and lovely memories.</div>
+        </section>
+
+        <section class="booking-layout">
+            <div class="booking-form">
+                <h2>Reservation Details</h2>
+
+                <form action="#" method="post">
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="guests">Number of Guests *</label>
+                            <select id="guests" name="guests" required>
+                                <option value="" disabled selected>Select guests</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                                <option>7</option>
+                                <option>8</option>
+                                <option>More than 8</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="date">Date *</label>
+                            <input type="date" id="date" name="date" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="time">Time *</label>
+                            <select id="time" name="time" required>
+                                <option value="" disabled selected>Select a time</option>
+                                <option>11:00 AM</option>
+                                <option>11:30 AM</option>
+                                <option>12:00 PM</option>
+                                <option>12:30 PM</option>
+                                <option>1:00 PM</option>
+                                <option>1:30 PM</option>
+                                <option>2:00 PM</option>
+                                <option>2:30 PM</option>
+                                <option>6:00 PM</option>
+                                <option>6:30 PM</option>
+                                <option>7:00 PM</option>
+                                <option>7:30 PM</option>
+                                <option>8:00 PM</option>
+                                <option>8:30 PM</option>
+                                <option>9:00 PM</option>
+                                <option>9:30 PM</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group full-width">
+                            <label for="occasion">Occasion (Optional)</label>
+                            <select id="occasion" name="occasion">
+                                <option value="">Choose an occasion</option>
+                                <option>Birthday</option>
+                                <option>Anniversary</option>
+                                <option>Family Gathering</option>
+                                <option>Date Night</option>
+                                <option>Business Dinner</option>
+                                <option>Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group full-width">
+                            <label for="requests">Special Requests (Optional)</label>
+                            <textarea id="requests" name="requests" placeholder="Any dietary requirements or seating preferences?"></textarea>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="submit-button">Confirm Reservation Request</button>
+                </form>
+            </div>
+
+            <aside class="booking-info">
+                <h2>Plan Your Visit</h2>
+
+                <h3>Opening Hours</h3>
+                <p>Monday – Friday: 11 AM – 10 PM<br>Saturday: 11 AM – 11 PM<br>Sunday: 12 PM – 10 PM</p>
+
+                <h3>Large Groups</h3>
+                <p>For bookings of more than eight guests, please contact the restaurant directly.</p>
+
+                <h3>Before You Visit</h3>
+                <p>Your booking is a request until the restaurant confirms your reservation.</p>
+
+                <div class="closing-line">We look forward to welcoming you!</div>
+            </aside>
+        </section>
+    </main>
+
+    <footer>
+        © 2026 The Urban Table. Good food, great company, unforgettable moments.
+    </footer>
+</body>
+</html>
